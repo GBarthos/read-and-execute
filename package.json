@@ -5,6 +5,13 @@
   "author": "GBarthos",
   "license": "MIT",
   "homepage": "https://github.com/GBarthos/read-and-execute",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/GBarthos/read-and-execute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GBarthos/read-and-execute/issues"
+  },
   "main": "index.js",
   "bin": "./cli.js",
   "scripts": {
@@ -17,9 +24,11 @@
     "yaku": "^0.17.8",
     "yargs": "^7.0.2"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "keywords": [
     "readFile",
-    "promise",
     "node",
     "backend",
     "file",
