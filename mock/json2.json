@@ -1,0 +1,7 @@
+{
+    "commands": {
+        "commandA": { "command": "echo toto" },
+        "commandB": "echo $(uname)",
+        "commandC": { "command": "echo $(whoami)" }
+    }
+}

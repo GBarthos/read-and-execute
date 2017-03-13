@@ -1,0 +1,4 @@
+echo toto
+npm -v
+echo $(uname)
+echo $(whoami)

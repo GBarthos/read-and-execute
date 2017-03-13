@@ -1,0 +1,7 @@
+{
+    "commands": [
+        { "command": "echo toto" },
+        "echo $(uname)",
+        { "command": "echo $(whoami)" }
+    ]
+}
