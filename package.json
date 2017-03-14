@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "yaku": "^0.17.8",
     "yargs": "^7.0.2"
   },
   "engines": {
