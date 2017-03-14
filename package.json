@@ -1,7 +1,7 @@
 {
   "name": "read-and-execute",
-  "version": "1.0.0",
-  "description": "Read and Execute commands stored in a file path",
+  "version": "0.0.1",
+  "description": "Read and execute commands stored in a file",
   "author": "GBarthos",
   "license": "MIT",
   "homepage": "https://github.com/GBarthos/read-and-execute",
@@ -12,15 +12,13 @@
   "bugs": {
     "url": "https://github.com/GBarthos/read-and-execute/issues"
   },
-  "main": "index.js",
-  "bin": "./cli.js",
+  "main": "api.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "lodash.isstring": "^4.0.1",
-    "rsvp": "^3.4.0",
     "yaku": "^0.17.8",
     "yargs": "^7.0.2"
   },
@@ -28,6 +26,7 @@
     "node": ">=4.0.0"
   },
   "keywords": [
+    "read",
     "readFile",
     "node",
     "backend",
@@ -35,6 +34,7 @@
     "path",
     "execute",
     "child_process",
+    "shelljs",
     "process"
   ]
 }

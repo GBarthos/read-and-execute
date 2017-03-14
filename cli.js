@@ -2,6 +2,6 @@
 
 "use strict";
 
-var api = require('./index.js');
+var api = require('./api.js');
 
 api.fromArguments(process.argv);
